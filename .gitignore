@@ -1,1 +1,71 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserdatad/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Archives
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Configuration files containing secrets
+Secrets.xcconfig
+Config.xcconfig
+Local.xcconfig
+*.secret.xcconfig
+
+# API keys and credentials
+secrets.json
+credentials.json
+credentials.plist
+
+# Firebase
+GoogleService-Info.plist
+
+# Certificates / provisioning
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# Fastlane credentials
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+fastlane/.env
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Executables generated manually
 helloWorld
