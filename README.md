@@ -19,6 +19,17 @@ Las prácticas están organizadas por fecha de realización.
 - Switch
 - Manejo de emojis y Unicode
 
+### 01/09/2026
+- Ejercicios con las estructuras `GPS` y `Book`
+- Introducción a interfaces gráficas en Xcode
+- Proyecto `HelloWorldUI` con Storyboard
+
+### 08/09/2026
+- Ejercicios con `Person` y `Spaceship`
+- Desarrollo de interfaz gráfica con Storyboard
+- Proyecto `Ejercicio3` en Xcode
+
+
 ## Tecnologías
 
 - Swift
