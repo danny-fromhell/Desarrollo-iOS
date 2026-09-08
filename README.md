@@ -29,10 +29,6 @@ Las prácticas están organizadas por fecha de realización.
 
 ## Estructura
 
-```text
-## Estructura
-
-```text
 Desarrollo-iOS/
 ├── 18_08_26/
 ├── 20_08_26/
