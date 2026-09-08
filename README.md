@@ -30,9 +30,14 @@ Las prácticas están organizadas por fecha de realización.
 ## Estructura
 
 ```text
+## Estructura
+
+```text
 Desarrollo-iOS/
 ├── 18_08_26/
 ├── 20_08_26/
 ├── 25_08_26/
+├── 01_09_26/
+├── 08_09_26/
 ├── .gitignore
 └── README.md
