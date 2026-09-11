@@ -29,6 +29,22 @@ Las prácticas están organizadas por fecha de realización.
 - Desarrollo de interfaz gráfica con Storyboard
 - Proyecto `Ejercicio3` en Xcode
 
+### 10/09/2026
+
+#### Ejercicio 1: Manejo de botones y arreglos
+
+Aplicación desarrollada con UIKit para practicar el uso de eventos mediante `IBAction` y el manejo de arreglos en Swift.
+
+El ejercicio consiste en una interfaz con cinco botones. Al presionar cada botón, se agrega al arreglo el número correspondiente utilizando el método `append()` y se imprime en consola el contenido actualizado del arreglo.
+
+**Conceptos utilizados:**
+- `UIViewController`
+- `IBAction`
+- Arreglos de tipo `Int`
+- Inicialización de arreglos con `[Int]()`
+- Método `append()`
+- Eventos de botones
+- `print()`
 
 ## Tecnologías
 
@@ -47,5 +63,6 @@ Desarrollo-iOS/
 ├── 25_08_26/
 ├── 01_09_26/
 ├── 08_09_26/
+├── 10_09_26/
 ├── .gitignore
 └── README.md
