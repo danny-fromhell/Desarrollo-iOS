@@ -46,17 +46,50 @@ El ejercicio consiste en una interfaz con cinco botones. Al presionar cada botó
 - Eventos de botones
 - `print()`
 
+### 17/09/2026
+
+#### Ejercicio 1: Optionals en Swift
+
+Ejercicio realizado para practicar el manejo de valores opcionales en Swift y comprender cómo trabajar con variables que pueden contener un valor o ser `nil`.
+
+**Conceptos utilizados:**
+
+- Optionals
+- `nil`
+- Declaración de variables opcionales
+- Manejo de valores opcionales en Swift
+
+#### Ejercicio 2: Interfaz con UITextField, UILabel y UIButton
+
+Aplicación desarrollada con UIKit y Storyboard para practicar la interacción entre componentes de una interfaz gráfica y código Swift.
+
+El ejercicio consiste en ingresar un nombre mediante un `UITextField`. Al presionar un `UIButton`, el texto introducido se obtiene desde el campo de texto y se muestra en un `UILabel`.
+
+**Conceptos utilizados:**
+
+- `UIViewController`
+- UIKit
+- Storyboard
+- `UITextField`
+- `UILabel`
+- `UIButton`
+- `IBOutlet`
+- `IBAction`
+- Eventos de botones
+- Acceso a la propiedad `text`
+
 ## Tecnologías
 
 - Swift
+- UIKit
 - Xcode
+- Storyboard
 - Swift Playgrounds
 - Git
 - GitHub
 
 ## Estructura
 
-```text
 Desarrollo-iOS/
 ├── 18_08_26/
 ├── 20_08_26/
@@ -64,5 +97,6 @@ Desarrollo-iOS/
 ├── 01_09_26/
 ├── 08_09_26/
 ├── 10_09_26/
+├── 17_09_26/
 ├── .gitignore
 └── README.md
