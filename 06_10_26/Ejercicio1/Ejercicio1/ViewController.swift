@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         l.text = "Iniciar Sesión"
         l.font = .boldSystemFont(ofSize: 28)
         l.textAlignment = .center
-        l.translatesAutoresizingMaskIntoConstraints = false
         return l
     }()
 
@@ -31,7 +30,6 @@ class ViewController: UIViewController {
         b.backgroundColor = .systemBlue
         b.setTitleColor(.white, for: .normal)
         b.layer.cornerRadius = 8
-        b.translatesAutoresizingMaskIntoConstraints = false
         return b
     }()
 
@@ -40,7 +38,6 @@ class ViewController: UIViewController {
             [titleLabel, usernameField, loginButton])
         s.axis = .vertical
         s.spacing = 18
-        s.translatesAutoresizingMaskIntoConstraints = false
         return s
     }()
 
@@ -49,10 +46,9 @@ class ViewController: UIViewController {
 
         view.backgroundColor = .systemBackground
 
-        stack.addArrangedSubview(titleLabel)
-        stack.addArrangedSubview(usernameField)
-        stack.addArrangedSubview(loginButton)
-        
+        [titleLabel, usernameField, loginButton, stack]
+            .forEach { $0.translatesAutoresizingMaskIntoConstraints = false }
+
         view.addSubview(stack)
 
         NSLayoutConstraint.activate([
